@@ -1,0 +1,40 @@
+/* Add your CSS styles here to make the interface visually appealing and responsive */
+/* This is a placeholder, you can design as per your preferences */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  input[type="text"],
+  button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: aqua;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: lightblue;
+  }
+  
+  #weatherInfo,
+  #countryInfo,
+  #timeInfo {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
